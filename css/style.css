@@ -190,6 +190,17 @@
     color: #999999;
 }
 
+.page-header-about {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.253), rgba(0, 29, 35, 0.514)), url(../img/images/img_4\ \(1\).jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-about .breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
+
 
 /*** Causes ***/
 .causes-item .progress {
@@ -402,16 +413,17 @@
     display: block;
     margin-bottom: 5px;
     padding: 0;
-    text-align: left;
+    text-align: center;
     color: rgba(255,255,255,0.5);
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    direction: ltr;
 }
 
 .footer .btn.btn-link::before {
     position: relative;
-    content: "\f105";
+    content: "\f104";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: rgba(255,255,255,0.5);
