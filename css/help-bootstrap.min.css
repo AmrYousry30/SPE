@@ -8353,6 +8353,9 @@ fieldset:disabled .btn {
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5) !important
 }
+.text-white-51 {
+    color: rgb(255 255 255) !important
+}
 
 .text-reset {
     color: inherit !important
@@ -8360,6 +8363,9 @@ fieldset:disabled .btn {
 
 .bg-primary {
     background-color: #52578E !important
+}
+.bg-primary2 {
+    background-color: #52578e6e !important
 }
 
 .bg-secondary {

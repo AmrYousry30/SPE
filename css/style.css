@@ -200,6 +200,16 @@
 .page-header-about .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
+.page-header-album {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.253), rgba(0, 29, 35, 0.514)), url(../img/images/كرتونة-الخير/Image20241230.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-album .breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
 
 
 /*** Causes ***/
@@ -529,6 +539,63 @@
 }
 
 /*** End Project Portfolio ***/
+
+/*** album Start ***/
+.training .training-item .training-inner {
+    position: relative;
+}
+
+.training .training-item .training-inner .training-title-name {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.training .training-item {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.training .training-item:hover .training-inner .training-title-name {
+    background: rgba(0, 58, 102, 0.5);
+}
+
+.training .training-item:hover .training-inner .training-title-name a {
+    opacity: 0;
+}
+
+.training .training-item .training-inner img {
+    transition: 0.5s;
+}
+
+.training .training-item:hover .training-inner img {
+    transform: scale(1.3);
+}
+
+.training .training-item .training-content {
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+.training .training-item:hover .training-content {
+    bottom: 0;
+}
+
+/*** album End ***/
 
 /*** Counter Facts Start ***/
 .counter-facts {
