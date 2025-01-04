@@ -210,6 +210,16 @@
 .page-header-album .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
+.page-header-objectives {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.253), rgba(0, 29, 35, 0.514)), url(../img/images/objectives/objectives-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-objectives .breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
 
 
 /*** Causes ***/
@@ -761,5 +771,15 @@
 }
 
 /*** Gallery End ***/
+
+/* Objective Start*/
+.objectives-item {
+    text-align: center;
+    margin: 0px 345px 0px 345px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background: #00000021;
+}
+/* Objective End*/
 
 /*------------End Css SPE--------------------*/
