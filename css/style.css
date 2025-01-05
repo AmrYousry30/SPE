@@ -220,6 +220,16 @@
 .page-header-objectives .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
+.page-header-madinat {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.253), rgba(0, 29, 35, 0.514)), url(../img/images/madinat-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-madinat .breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
 
 
 /*** Causes ***/
@@ -772,7 +782,7 @@
 
 /*** Gallery End ***/
 
-/* Objective Start*/
+/*** Objective Start ***/
 .objectives-item {
     text-align: center;
     margin: 0px 345px 0px 345px;
@@ -780,6 +790,6 @@
     border-radius: 15px;
     background: #00000021;
 }
-/* Objective End*/
+/*** Objective End ***/
 
 /*------------End Css SPE--------------------*/
