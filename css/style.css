@@ -230,6 +230,27 @@
 .page-header-madinat .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
+.page-header-blog {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgb(0 29 35 / 58%), rgb(0 29 35 / 79%)), url(../img/images/blog/70b43e92-65c2-45cf-b979-78d2b49a5e4f.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-blog .breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
+
+.page-header-contact {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.253), rgba(0, 29, 35, 0.514)), url(../img/images/contact/images.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-contact .breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
 
 
 /*** Causes ***/
@@ -791,5 +812,7 @@
     background: #00000021;
 }
 /*** Objective End ***/
+
+
 
 /*------------End Css SPE--------------------*/

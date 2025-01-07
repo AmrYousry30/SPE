@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="ar">
 
 <head>
     <meta charset="utf-8">
-    <title>ChariTeam - Free Nonprofit Website Template</title>
+    <title>جمعية مهندسى البترول والتعدين والغاز</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/images/logo/logo-icon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -25,15 +25,20 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link href="css/help-bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link href="css/blog.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
@@ -41,14 +46,20 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
+        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex"
+            style="display: flex !important; flex-direction: row-reverse; color: #FFFFFF;">
             <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@example.com</small>
+                <small><i class="fa fa-map-marker-alt me-2"></i> 71ش الحجاز - ميدان المحكمة - مصر الجديدة - القاهرة
+                </small>
+                <a class="text-white-50" href="info@spe-egypt.com" target="_blank"><small class="ms-4"><i
+                            class="fa fa-envelope me-2"></i> info@spe-egypt.com </small>
+
+                </a>
             </div>
-            <div class="col-lg-6 px-5 text-end">
-                <small>Follow us:</small>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+            <div class="col-lg-6 px-5 text-end" style="direction: rtl;">
+                <small>تابعنا : </small>
+                <a class="text-white-50 ms-3" href="https://www.facebook.com/profile.php?id=61570703487102"
+                    target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
                 <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
                 <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
@@ -57,115 +68,160 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-primary m-0">Chari<span class="text-white">Team</span></h1>
+                <!--<h1 class="fw-bold text-primary m-0"> جمعية مهندسى <span class="text-white"> البترول والتعدين والغاز</span></h1>-->
+                <img class="w-65" src="img/images/logo/logo-removebg.png" alt="Image">
             </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="causes.html" class="nav-item nav-link">Causes</a>
+                <div class="navbar-nav ms-auto p-4 p-lg-0" style="position: absolute; right: 365px;">
+                    <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
+                    <a href="#" class="nav-item nav-link">الداعمين للجمعية</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">الانشطة</a>
                         <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">Service</a>
-                            <a href="donate.html" class="dropdown-item">Donate</a>
-                            <a href="team.html" class="dropdown-item">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="#" class="dropdown-item">المؤتمرات</a>
+                            <a href="#" class="dropdown-item">الاحتفالات</a>
+                            <a href="#" class="dropdown-item">الندوات</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
-                </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="">
-                        Donate Now
-                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                            <i class="fa fa-arrow-right"></i>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">المركز الاعلامى</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="album.html" class="dropdown-item">البوم الصور </a>
+                            <a href="#" class="dropdown-item">الفديوهات</a>
+                            <a href="blog.html" class="dropdown-item">الاخبار</a>
                         </div>
-                    </a>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">المساعدات</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#" class="dropdown-item"> المشروعات</a>
+                            <a href="#" class="dropdown-item">المبادرات</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-item nav-link"> تبرع الان</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> من نحن</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#" class="dropdown-item"> مجلس ادارة الجمعية </a>
+                            <a href="#" class="dropdown-item"> نشأة الجمعية</a>
+                            <a href="objectives.html" class="dropdown-item">اهداف الجمعية</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
                 </div>
+                <!-- <div class="d-none d-lg-flex ms-2">
+                        <a class="btn btn-outline-primary py-2 px-3" href="">
+                            Donate Now
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Contact Us</h1>
+    <div class="container-fluid page-header-contact mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center" style="direction: ltr;">
+            <h1 class="display-4 text-white animated slideInDown mb-4"> تواصل معنا </h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Contact Us</li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">تواصل معنا </li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">الصفحة الرئيسية</a></li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Contact Us</div>
-                    <h1 class="display-6 mb-5">If You Have Any Query, Please Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
+        <!-- Contact Start -->
+        <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-1">
+                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                    <h5 class="d-inline-block rounded-pill bg-secondary text-center text-primary py-1 px-3 mb-3">تواصل معنا</h5>
+                    <!-- <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1> -->
+                </div>
+                <div class="row g-5 mb-5" style="direction: ltr;">
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
+                            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt fa-2x text-white"></i>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-2 px-3 me-3">
-                                    Send Message
-                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </button>
+                            <div class="ps-4">
+                                <h5 class="mb-2">تليفون التواصل</h5>
+                                <h4 class="text-primary mb-0">+01018387941</h4>
                             </div>
                         </div>
-                    </form>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa fa-envelope-open fa-2x text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="mb-2">الميل الالكترونى</h5>
+                                <h4 class="text-primary mb-0">info@spe-egypt.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
+                            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                style="width: 60px; height: 60px;">
+                                <i class="fab fa-whatsapp-square fa-2x text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="mb-2"> التواصل على الواتس اب</h5>
+                                <h4 class="text-primary mb-0">+01018387941</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
-                    <div class="position-relative rounded overflow-hidden h-100">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control border-0 bg-light px-4" placeholder="الاسم"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control border-0 bg-light px-4" placeholder="البريد الالكترونى"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control border-0 bg-light px-4" placeholder="العنوان"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0 bg-light px-4 py-3" rows="4"
+                                        placeholder="الرسالة"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit"> ارسال</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
                         <iframe class="position-relative w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.5335370053976!2d31.334069974289562!3d30.107542915580613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815ebd0ccc1a5%3A0x523788d3e68c5801!2s71%20El%20Hegaz%20St%2C%20El-Nozha%2C%20El%20Nozha%2C%20Cairo%20Governorate%204470038!5e0!3m2!1sen!2seg!4v1736204778060!5m2!1sen!2seg"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Contact End -->
+        <!-- Contact End -->
+
 
 
     <!-- Footer Start -->
@@ -173,35 +229,52 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4">Chari<span class="text-white">Team</span></h1>
-                    <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+                    <h3 class="fw-bold text-primary"> جمعية مهندسى <span class="text-white"> البترول والتعدين والغاز
+                        </span>
+                    </h3>
+                    <p>
+                        بتبنى مشروعات تطوير وتجديد مبانى المدارس الحكومية في المناطق الأكثر احتياجاً في كافة أنحاء
+                        الجمهورية
+                        والعمل على رفع
+                        كفاءة البيئة
+                    </p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href="https://www.facebook.com/profile.php?id=61570703487102"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h5 class="text-light mb-4" style="text-align: center;">العنوان</h5>
+                    <p> 71ش الحجاز - ميدان المحكمة <i class="fa fa-map-marker-alt me-3" style="direction: rtl;"></i></p>
+                    <p> 01018387941<i class="fa fa-phone-alt me-3" style="direction: rtl;"></i></p>
+                    <p><a class="text-white-50" href="info@spe-egypt.com" target="_blank">info@spe-egypt.com<i
+                                class="fa fa-envelope me-3" style="direction: rtl;"></i></a></p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h5 class="text-light mb-4" style="text-align: center;">
+                        خدماتنا
+                    </h5>
+                    <a class="btn btn-link" href=""> من نحن </a>
+                    <a class="btn btn-link" href=""> التبرعات</a>
+                    <a class="btn btn-link" href=""> المساعدات</a>
+                    <a class="btn btn-link" href=""> تواصل معنا </a>
+                    <a class="btn btn-link" href=""> الحفلات والندوات</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <h5 class="text-light mb-4" style="text-align: center;">اهم الاخبار</h5>
+                    <p>
+                        مشروع انشاء مجمعات صناعة تشمل العديد من المجالات الحرفية من أخشاب ، وتشكيل معادن ، وملابس ...
+                        لفتح
+                        فرص عمل للشباب .
+                    </p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="البريد الالكترونى">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">تواصل
+                            معنا</button>
                     </div>
                 </div>
             </div>
@@ -210,23 +283,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a href="#">جمعية مهندسى البترول والتعدين والغاز</a>, كل الحقوق محفوظة.
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
+                    <!--  <div class="col-md-6 text-center text-md-end">
+                                Designed By <a href="#"></a>
+                            </div> -->
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
-
+    
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
+    
+    
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -235,9 +306,10 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/parallax/parallax.min.js"></script>
-
+    
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
-</html>
+    
+    </body>
+    
+    </html>
